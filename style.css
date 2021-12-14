@@ -1,6 +1,12 @@
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -17,12 +23,22 @@ body{
 .half-width img{
     width: 100%;
 }
+.images-first img{
+    width: 100%;
+}
+.images-first{
+    width: 37%;
+    float: left;
+    margin: 4%;
+    padding: 2%;
+}
 .dude{
     background-repeat: no-repeat;
     background-image: url(Images/top-banner.png);
 }
 section{
     height: 700px;
+    padding-bottom: 150px;
 }
 .nice{
     text-decoration: none;
@@ -31,4 +47,9 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.new{
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
